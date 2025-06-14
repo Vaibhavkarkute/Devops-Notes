@@ -6,6 +6,7 @@ sudo su -
     3  apt install docker.io -y
     4  docker version
     5  docker info
+    6 sudo systemctl start docker (if Server is not connect)
 
 Install apache2 in a VM
 lsof -i -P -n | grep LISTEN --> check running in a VM
